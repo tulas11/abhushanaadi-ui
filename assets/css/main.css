@@ -454,7 +454,7 @@
 }
 
 .product-action:not(.product-action-dark) .btn-product:not(:hover):not(:focus) {
-    color: #333
+    color: #ff544c
 }
 
 .product-action-dark .btn-product:not(:hover):not(:focus) {
