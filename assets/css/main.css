@@ -859,6 +859,7 @@
         font-size: 4rem
     }
 
+
     .intro-price {
         font-size: 4rem
     }
@@ -866,7 +867,9 @@
     .intro-price sup {
         font-size: 1.6rem
     }
-    
+    .mobile-slide {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 992px) {
