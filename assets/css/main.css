@@ -870,7 +870,9 @@
 }
 
 @media screen and (min-width: 992px) {
-
+    .mobile-slide {
+        display: none;
+    }
     .intro-slider-container,
     .intro-slide {
         height: 400px
@@ -895,6 +897,9 @@
 }
 
 @media screen and (min-width: 1200px) {
+    .mobile-slide {
+        display: none;
+    }
     .intro-content .btn {
         min-width: 170px
     }
@@ -935,6 +940,9 @@
         text-align: center
     }
 
+    .mobile-slide {
+        display: none;
+    }
     .heading .title {
         margin-bottom: 1rem
     }
