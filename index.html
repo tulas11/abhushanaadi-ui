@@ -33,14 +33,14 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/skins.css">
     <link rel="stylesheet" href="assets/css/main.css">
-    
+    <link rel="stylesheet" href="assets/css/barba.css">    
 		<link rel="stylesheet" type="text/css" href="assets/css/effect1.css">
 		<script src="assets/js/modernizr.custom.js"></script>
 
 </head>
 
 
-<body>
+<body data-barba="wrapper">
     <div id="ip-container" class="ip-container">
         <!-- initial header -->
         <header class="ip-header">
@@ -130,7 +130,7 @@
 
                     <div class="header-right">
                         <div class="wishlist">
-                            <a href="wishlist.html" title="Wishlist">
+                            <a href="shop.html" title="Wishlist">
                                 <div class="icon">
                                     <i class="icon-heart-o"></i>
                                     <span class="wishlist-count badge">3</span>
@@ -613,7 +613,7 @@
             </div><!-- End .header-bottom -->
         </header><!-- End .header -->
 
-        <main class="main">
+        <main class="main" data-barba="container" data-barba-namespace="home">
             <div class="intro-slider-container mb-3">
                 <div class="desktop-slide">
                     <div class="intro-slider owl-carousel owl-theme owl-nav-inside owl-light" data-toggle="owl"
@@ -6448,6 +6448,30 @@
     <script src="assets/js/classie.js"></script>
 		<script src="assets/js/pathLoader.js"></script>
 		<script src="assets/js/preloader.js"></script>
+         <!-- load barba (UMD version) -->
+    <script src="https://unpkg.com/@barba/core"></script>
+
+    <!-- load gsap animation library (minified version) -->
+    <script src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
+
+    <!-- init barba with a simple opacity transition -->
+    <script type="text/javascript">
+      barba.init({
+        transitions: [{
+          name: 'opacity-transition',
+          leave(data) {
+            return gsap.to(data.current.container, {
+              opacity: 0
+            });
+          },
+          enter(data) {
+            return gsap.from(data.next.container, {
+              opacity: 0
+            });
+          }
+        }]
+      });
+    </script>
 </body>
 
 </html>

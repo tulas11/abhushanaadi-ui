@@ -216,7 +216,7 @@
         }
     </style>
 <body>
-    <div class="page-wrapper">
+    <div class="page-wrapper" data-barba="wrapper">
         <header class="header header-intro-clearance header-4 ">
             <div class="header-top">
                 <div class="container">
@@ -290,7 +290,7 @@
 
                     <div class="header-right">
                         <div class="wishlist">
-                            <a href="wishlist.html" title="Wishlist">
+                            <a href="product.html" title="Wishlist">
                                 <div class="icon">
                                     <i class="icon-heart-o"></i>
                                     <span class="wishlist-count badge">3</span>
@@ -774,7 +774,7 @@
         </header><!-- End .header -->
 
 
-        <main class="main">
+        <main class="main" data-barba="container" data-barba-namespace="shop">
         	<div class="page-header text-center" style="background-image: url('assets/images/products/ring-banner.webp');height: 13rem;">
         	</div><!-- End .page-header -->
             <nav aria-label="breadcrumb" class="breadcrumb-nav mb-2">
@@ -2547,8 +2547,22 @@
     <script src="assets/js/nouislider.min.js"></script>
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+        barba.init({
+          transitions: [{
+            name: 'opacity-transition',
+            leave(data) {
+              return gsap.to(data.current.container, {
+                opacity: 0
+              });
+            },
+            enter(data) {
+              return gsap.from(data.next.container, {
+                opacity: 0
+              });
+            }
+          }]
+        });
+      </script>
 </body>
-
-
-<!-- molla/category-2cols.html  22 Nov 2019 10:02:52 GMT -->
 </html>
