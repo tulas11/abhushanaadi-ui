@@ -33,169 +33,42 @@
         <link rel="stylesheet" href="assets/css/skins.css">
         <link rel="stylesheet" href="assets/css/main.css">
         <style>
-            .nav-icons {
-                vertical-align: middle;
-                width: 50px;
-                height: 50px;
-                margin-right: 1rem;
-                margin-top: -2rem;
-                border-radius: 50%;
-            }
-    
-            .nav-icons2 {
-                vertical-align: middle;
-                width: 20px;
-                height: 20px;
-                margin-right: 1rem;
-    
-                border-radius: 50%;
-            }
-    
-            .metal-col {
-                margin-top: -1rem;
-            }
-    
-            .btn-theme {
-                background-color: #ff544c;
-                color: white;
-            }
-    
-            .btn-theme :hover {
-                background-color: #ff544c;
-                color: white;
-            }
-    
-            .bg-outline-theme {
-                border: solid;
-                border-color: #ff544c;
-    
-            }
-    
-            .fs-same {
-                font-size: 2rem;
-            }
-    
-            .feed-col {
-                display: flex;
-                align-items: stretch;
-                padding-left: 1rem;
-                padding-right: 1rem;
-    
-                max-width: 50%
-            }
-    
-            .feed-col-title {
-                display: none
-            }
-    
-            .instagram-feed-title {
-                display: flex;
-                width: 100%;
-                align-items: center;
-                justify-content: center;
-                flex-direction: column;
-                text-align: center;
-                background-color: #fff;
-                border: .1rem solid #ebebeb;
-                margin-bottom: 2rem;
-                color: #333
-            }
-    
-            .instagram-feed-title i {
-                display: inline-block;
-                font-size: 2.4rem;
-                line-height: 1;
-                margin-bottom: 1rem
-            }
-    
-            .instagram-feed-title p {
-                margin-bottom: .5rem
-            }
-    
-            .instagram-feed-title a {
-                text-transform: uppercase;
-                font-weight: 400;
-                letter-spacing: -.01em
-            }
-    
-            .instagram-feed-container {
-                margin-bottom: 2.5rem
-            }
-    
-            .mobile-footer {
-                display: none;
-            }
-    
-            @media (max-width: 768px) {
-                .desktop-slide {
-                    display: none;
-                }
-    
-                .desktop-footer {
-                    display: none !important;
-                }
-    
-                .mobile-footer {
-                    display: unset;
-                }
-    
-                .mobile-slide {
-                    display: unset;
-                }
-    
-                .fs-5 {
-                    font-size: 2rem !important;
-                    margin-top: 1rem !important;
-                }
-    
-            }
-    
-            @media all and (min-width: 992px) {
-                .mobile-slide {
-                    display: none;
-                }
-    
-                .mobile-footer {
-                    display: none;
-                }
-    
-            }
-    
-            .gemsicon {
-                vertical-align: middle;
-                width: 20px;
-                height: 20px;
-                display: unset;
-            }
-    
-            .promises-card-img {
-                border: solid 1px #ff544c;
-                border-radius: 50%;
-                border-color: #ff544c;
-            }
-    
-            .fs-5 {
-                font-size: 2.5rem;
-                margin-top: 7rem;
-            }
-    
-            .testimonial-1 {
-                background: #fff;
-                padding: 14px;
-                color: #000
-            }
-    
-    
-            .review-name {
-                font-weight: 700;
-                font-size: 14px;
-                margin-bottom: -3px
-            }
-    
-            .review-place {
-                font-size: 13px;
-                color: #988c8c
-            }
+            img {
+  position: relative;
+  display: block;
+  max-width: 100%;
+  min-height: auto;
+  /* background-color shows in the reserved space before image loads */
+  background-color: hsl(220, 20%, 90%);
+  /* Make background pulse so it looks kinda load-y */
+  animation: loading 0.8s infinite alternate;
+}
+
+@keyframes loading {
+  to {
+    background-color: hsl(220, 10%, 75%);
+  }
+}
+
+/*
+Pseudoelements only show if the image fails to load
+This means we can use them to show a nice overlay with the alt text inside
+*/
+img::after {
+  content: "\1f517" " Broken Image of " attr(alt);
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: hsl(220, 20%, 90%);
+}
+
+img + img {
+  margin-top: 1rem;
+}
         </style>
     </head>
     <style>
