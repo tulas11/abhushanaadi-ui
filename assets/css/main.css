@@ -947,4 +947,45 @@
     }
 }
 
+.mobile-filter {
+    display: none;
+}
+
+.mr-6 {
+    margin-right: 5rem;
+}
+
+@media (max-width: 768px) {
+    .desktop-filter {
+        display: none;
+    }
+
+    .mobile-filter {
+        display: unset;
+    }
+}
+
+.img_wrapper img {
+
+    opacity: 0;
+
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    transition: opacity .5s;
+}
+
+.img_wrapper.loaded img {
+    opacity: 1;
+}
+
+.img_wrapper.loaded .spinner-border {
+    display: none;
+}
+
+.spinner-border{
+    position: relative;
+top: 6.5rem;
+}
+
 /*# sourceMappingURL=demo-4.css.map */
