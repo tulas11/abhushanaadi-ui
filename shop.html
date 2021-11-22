@@ -2622,7 +2622,13 @@
 
     <!-- init barba with a simple opacity transition -->
     <script src="assets/js/spa.js"></script>
-
+    <script>
+        jQuery(document).ready(function($) {
+            Barba.Dispatcher.on('transitionCompleted', function (currentStatus, oldStatus, container) {
+            var bLazy = new Blazy();
+          });
+        });
+        </script>
     
 </body>
 

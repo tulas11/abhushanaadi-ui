@@ -1220,7 +1220,13 @@
     <script src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
 
     <script src="assets/js/spa.js"></script>
-
+    <script>
+        jQuery(document).ready(function($) {
+            Barba.Dispatcher.on('transitionCompleted', function (currentStatus, oldStatus, container) {
+            var bLazy = new Blazy();
+          });
+        });
+        </script>
 </body>
 
 
