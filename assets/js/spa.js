@@ -1,4 +1,6 @@
-
+barba.hooks.beforeEnter(() => {
+    killEvents();
+});
 barba.init({
     transitions: [{
         name: 'opacity-transition',
