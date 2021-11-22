@@ -1,4 +1,4 @@
-barba.Pjax.start();
+
 barba.init({
     transitions: [{
         name: 'opacity-transition',
