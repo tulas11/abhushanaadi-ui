@@ -16,6 +16,9 @@ barba.init({
         }
     }]
 });
+
 barba.hooks.beforeEnter((data) => {
-    killEvents();
+    Barba.Dispatcher.on('transitionCompleted', function (currentStatus, oldStatus, container) {
+        killEvents();
+      }); 
   });
