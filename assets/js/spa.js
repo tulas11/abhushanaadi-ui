@@ -1,5 +1,6 @@
 
 barba.init({
+    
     sync: true,
     debug: true,
     transitions: [{
@@ -15,6 +16,7 @@ barba.init({
             });
         }
     }]
+    
 });
 
 barba.hooks.beforeEnter((data) => {
@@ -22,3 +24,4 @@ barba.hooks.beforeEnter((data) => {
         killEvents();
       }); 
   });
+

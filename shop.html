@@ -33,19 +33,13 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/skins.css">
     <link rel="stylesheet" href="assets/css/main.css">
-    <script>
-        function imgLoaded(img) {
-            var imgWrapper = img.parentNode;
-
-            imgWrapper.className += imgWrapper.className ? ' loaded' : 'loaded';
-        };
-    </script>
+    
 </head>
 <style>
    
 </style>
 
-<body data-barba="wrapper" onload="script();">
+<body data-barba="wrapper">
     <div class="page-wrapper">
         <header class="header header-intro-clearance header-4 ">
             <div class="header-top">
@@ -2621,7 +2615,8 @@
     <script src="https://unpkg.com/gsap@latest/dist/gsap.min.js"></script>
 
     <!-- init barba with a simple opacity transition -->
-    <script src="assets/js/spa.js" defer></script>
+    <script src="assets/js/spa.js"></script>
+    
     
     
 </body>
