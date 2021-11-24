@@ -34,7 +34,11 @@
     <link rel="stylesheet" href="assets/css/skins.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <script>
-       
+       function imgLoaded(img) {
+        var imgWrapper = img.parentNode;
+    
+        imgWrapper.className += imgWrapper.className ? ' loaded' : 'loaded';
+    };
     </script>
 </head>
 <style>

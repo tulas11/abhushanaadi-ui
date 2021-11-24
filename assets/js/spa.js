@@ -1,7 +1,5 @@
-
-
 barba.init({
-    
+
     sync: true,
     debug: true,
     transitions: [{
@@ -16,10 +14,10 @@ barba.init({
                 opacity: 0
             });
         }
-        
+
     }]
-    
-    
+
+
 });
 
 barba.hooks.beforeEnter((data) => {
@@ -28,4 +26,12 @@ barba.hooks.beforeEnter((data) => {
         $('<script>').attr('src', src).appendTo('head');
     }
     reload_js('assets/js/main.js');
-  });
+});
+
+barba.hooks.afterEnter((data) => {
+    function reload_js(src) {
+        $('script[src="' + src + '"]').remove();
+        $('<script>').attr('src', src).appendTo('head');
+    }
+    reload_js('assets/js/main.js');
+});
