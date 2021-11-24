@@ -1,9 +1,13 @@
+
+
 barba.init({
 
     sync: true,
     debug: true,
     transitions: [{
-        name: 'opacity-transition',
+        name: 'fade',
+        sync: true,
+        once() {},
         leave(data) {
             return gsap.to(data.current.container, {
                 opacity: 0
@@ -13,11 +17,11 @@ barba.init({
             return gsap.from(data.next.container, {
                 opacity: 0
             });
-        }
+        },
+        
 
     }]
-
-
+    
 });
 
 barba.hooks.beforeEnter((data) => {
@@ -26,6 +30,8 @@ barba.hooks.beforeEnter((data) => {
         $('<script>').attr('src', src).appendTo('head');
     }
     reload_js('assets/js/main.js');
+    reload_js('assets/js/imgloader.js');
+    
 });
 
 barba.hooks.afterEnter((data) => {
@@ -34,4 +40,5 @@ barba.hooks.afterEnter((data) => {
         $('<script>').attr('src', src).appendTo('head');
     }
     reload_js('assets/js/main.js');
+    reload_js('assets/js/imgloader.js');
 });

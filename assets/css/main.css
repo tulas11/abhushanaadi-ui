@@ -1,5 +1,42 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800");
 
+/* =Fade out, fade in */
+/* Fade out current container */
+.fade-leave {
+    opacity: 1;
+}
+.fade-leave-active {
+    transition: opacity 0.3s linear;
+}
+.fade-leave-to {
+    opacity: 0;
+}
+ 
+/* Fade in the next container */
+.fade-enter {
+    opacity: 0;
+}
+.fade-enter-active {
+    transition: opacity 0.3s linear;
+}
+.fade-enter-to {
+    opacity: 1;
+}
+
+/* =Fade out, fade in */
+/* Fade out current container */
+.fade-leave,
+.fade-enter-to {
+    opacity: 1;
+}
+.fade-leave-active,
+.fade-enter-active {
+    transition: opacity 0.3s linear;
+}
+.fade-leave-to,
+.fade-enter {
+    opacity: 0;
+}
 .text-third {
     color: #ef837b
 }
@@ -987,5 +1024,6 @@
     position: relative;
 top: 6.5rem;
 }
+
 
 /*# sourceMappingURL=demo-4.css.map */
