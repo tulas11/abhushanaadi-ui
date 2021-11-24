@@ -1,4 +1,5 @@
 
+
 barba.init({
     
     sync: true,
@@ -15,13 +16,16 @@ barba.init({
                 opacity: 0
             });
         }
+        
     }]
+    
     
 });
 
 barba.hooks.beforeEnter((data) => {
-    barba.Dispatcher.on('transitionCompleted', function (currentStatus, oldStatus, container) {
-        killEvents();
-      }); 
+    function reload_js(src) {
+        $('script[src="' + src + '"]').remove();
+        $('<script>').attr('src', src).appendTo('head');
+    }
+    reload_js('assets/js/main.js');
   });
-
