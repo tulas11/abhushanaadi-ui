@@ -1,6 +1,6 @@
+function imgLoaded(img) {
+    var imgWrapper = img.parentNode;
 
-    function imgLoaded(img) {
-        var imgWrapper = img.parentNode;
+    imgWrapper.className += imgWrapper.className ? ' loaded' : 'loaded';
+};
 
-        imgWrapper.className += imgWrapper.className ? ' loaded' : 'loaded';
-    };
