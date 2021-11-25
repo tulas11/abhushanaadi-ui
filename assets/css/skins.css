@@ -11,7 +11,7 @@
 }
 
 .bg-secondary {
-    background-color: #1d84ea !important
+    background-color: #ff6c64 !important
 }
 
 a {
@@ -32,7 +32,7 @@ a:focus {
 }
 
 .text-secondary {
-    color: #1d84ea !important
+    color: #ff6c64 !important
 }
 
 .alert-primary {
@@ -63,7 +63,7 @@ a:focus {
 
 .btn-video:hover,
 .btn-video:focus {
-    background-color: #1d84ea
+    background-color: #ff6c64
 }
 
 .breadcrumb-item a:hover,
@@ -97,8 +97,8 @@ a:focus {
 .btn-primary:not(:disabled):not(.disabled).active,
 .show>.btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #1d84ea;
-    border-color: #1d84ea;
+    background-color: #ff6c64;
+    border-color: #ff6c64;
     box-shadow: none
 }
 
@@ -111,8 +111,8 @@ a:focus {
 
 .btn-secondary {
     color: #fff;
-    background-color: #1d84ea;
-    border-color: #1d84ea;
+    background-color: #ff6c64;
+    border-color: #ff6c64;
     box-shadow: none
 }
 
@@ -131,8 +131,8 @@ a:focus {
 .btn-secondary.disabled,
 .btn-secondary:disabled {
     color: #fff;
-    background-color: #1d84ea;
-    border-color: #1d84ea
+    background-color: #ff6c64;
+    border-color: #ff6c64
 }
 
 .btn-white {
@@ -175,8 +175,8 @@ a:focus {
 .btn-white-2:not(:disabled):not(.disabled).active,
 .show>.btn-white-2.dropdown-toggle {
     color: #fff;
-    background-color: #1d84ea;
-    border-color: #1d84ea;
+    background-color: #ff6c64;
+    border-color: #ff6c64;
     box-shadow: none
 }
 
@@ -566,8 +566,8 @@ a:focus {
 .btn-outline-white-2:not(:disabled):not(.disabled).active,
 .show>.btn-outline-white-2.dropdown-toggle {
     color: #fff;
-    background-color: #1d84ea;
-    border-color: #1d84ea;
+    background-color: #ff6c64;
+    border-color: #ff6c64;
     box-shadow: none
 }
 
@@ -759,7 +759,7 @@ a:focus {
 }
 
 .product-label.label-secondary {
-    background-color: #1d84ea
+    background-color: #ff6c64
 }
 
 .product-label-text {
@@ -805,7 +805,7 @@ a:focus {
 
 .product.product-4 .btn-product:hover,
 .product.product-4 .btn-product:focus {
-    background-color: #1d84ea
+    background-color: #ff6c64
 }
 
 .product.product-5 .btn-product {
