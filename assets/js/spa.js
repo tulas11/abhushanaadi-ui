@@ -28,7 +28,7 @@ $(document).ready(function () {
 
 
     barba.hooks.beforeEnter((data) => {
-
+        $(window).scrollTop(0);
         function reload_js(src) {
             $('script[src="' + src + '"]').remove();
             $('<script>').attr('src', src).appendTo('head');
@@ -43,10 +43,12 @@ $(document).ready(function () {
             e.preventDefault();
         });
         reload_js('assets/js/bootstrap.bundle.min.js');
+        
 
     });
 
     barba.hooks.afterEnter((data) => {
+        $(window).scrollTop(0);
         function reload_js(src) {
             $('script[src="' + src + '"]').remove();
             $('<script>').attr('src', src).appendTo('head');
@@ -61,4 +63,5 @@ $(document).ready(function () {
         });
         reload_js('assets/js/bootstrap.bundle.min.js');
     });
+    
 });
