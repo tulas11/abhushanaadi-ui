@@ -28,7 +28,7 @@ $(document).ready(function () {
 
 
     barba.hooks.beforeEnter((data) => {
-        $(window).scrollTop(0);
+       
         function reload_js(src) {
             $('script[src="' + src + '"]').remove();
             $('<script>').attr('src', src).appendTo('head');
