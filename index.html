@@ -618,7 +618,7 @@
         </header><!-- End .header -->
 
         <main class="main is-fade" data-barba="container" data-barba-namespace="fade">
-            <div class="intro-slider-container mb-3">
+            <div class="intro-slider-container">
                 <div class="desktop-slide">
                     <div class="intro-slider owl-carousel owl-theme owl-nav-inside owl-light" data-toggle="owl"
                         data-owl-options='{
@@ -715,108 +715,831 @@
             <!-- End .intro-slider-container -->
 
             <!--category section-->
-            <div class="container-fluid mt-3">
-                <div class="owl-carousel owl-full carousel-equal-height carousel-with-shadow" data-toggle="owl"
-                    data-owl-options='{
-                                            "nav": true, 
-                                            "dots": false,
-                                            "margin": 0,
-                                            "loop": false,
-                                            "responsive": {
-                                                "0": {
-                                                    "items":4
-                                                },
-                                                "480": {
-                                                    "items":4
-                                                },
-                                                "768": {
-                                                    "items":4
-                                                },
-                                                "992": {
-                                                    "items":9,
-                                                    "margin": 0
+            <div class="container-fluid bg-light" >
+                <!--navtabs popular-->
+                <div class="bg-light pt-3 pb-3">
+                    <div class="container trending-products">
+                        <div class="heading heading-flex mb-3">
+                            <div class="heading-left">
+                                <h2 class="title">Discover Our Popular Designs</h2><!-- End .title -->
+                                <p class="title-desc">Jewellery Crafted With Care & Love.</p>
+                            </div><!-- End .heading-left -->
+    
+                            <div class="heading-right">
+                                <ul class="nav nav-pills nav-border-anim justify-content-center" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="trending-top-link" data-toggle="tab"
+                                            href="#trending-top-tab" role="tab" aria-controls="trending-top-tab"
+                                            aria-selected="true">
+                                            <img src="assets/images/demos/demo-4/navatabs/new-stock.png" class="gemsicon"
+                                                alt="">
+                                            New Arrivals</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="trending-best-link" data-toggle="tab"
+                                            href="#trending-best-tab" role="tab" aria-controls="trending-best-tab"
+                                            aria-selected="false">
+                                            <img src="assets/images/demos/demo-4/navatabs/best-seller.webp" class="gemsicon"
+                                                alt="">
+                                            Best Selling</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="trending-sale-link" data-toggle="tab"
+                                            href="#trending-sale-tab" role="tab" aria-controls="trending-sale-tab"
+                                            aria-selected="false">
+                                            <img src="assets/images/demos/demo-4/navatabs/offers.webp" class="gemsicon"
+                                                alt="">
+                                            Offers</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="trending-sale-link" data-toggle="tab"
+                                            href="#trending-prod-tab" role="tab" aria-controls="trending-prod-tab"
+                                            aria-selected="false">
+                                            <img src="assets/images/demos/demo-4/navatabs/trend.webp" class="gemsicon"
+                                                alt="">
+                                            Trending</a>
+                                    </li>
+                                </ul>
+                            </div><!-- End .heading-right -->
+                        </div><!-- End .heading -->
+    
+                        <div class="container">
+                            <div class="tab-content tab-content-carousel just-action-icons-sm">
+                                <div class="tab-pane p-0 fade show active" id="trending-top-tab" role="tabpanel"
+                                    aria-labelledby="trending-top-link">
+                                    <div class="owl-carousel owl-full carousel-equal-height carousel-with-shadow"
+                                        data-toggle="owl" data-owl-options='{
+                                                "nav": true, 
+                                                "dots": false,
+                                                "margin": 20,
+                                                "loop": false,
+                                                "responsive": {
+                                                    "0": {
+                                                        "items":2
+                                                    },
+                                                    "480": {
+                                                        "items":2
+                                                    },
+                                                    "768": {
+                                                        "items":3
+                                                    },
+                                                    "992": {
+                                                        "items":4
+                                                    }
                                                 }
-                                            }
-                                        }'>
-                    <a href="shop.html">
-                        <figure class="figure">
-                            <img src="assets/images/demos/demo-4/slider/Rings.png" style="width: 6rem;"
-                                class="figure-img img-fluid rounded" alt="">
-                            <figcaption class="figure-caption text-center">Rings</figcaption>
-                        </figure>
-                    </a>
-                    <a href="shop.html">
-                        <figure class="figure">
-                            <img src="assets/images/demos/demo-4/slider/earring.png" style="width: 6rem;"
-                                class="figure-img img-fluid rounded" alt="">
-                            <figcaption class="figure-caption text-center">Earrings</figcaption>
-                        </figure>
-                    </a>
-                    <a href="shop.html">
-                        <figure class="figure">
-                            <img src="assets/images/demos/demo-4/slider/pendent.png" style="width: 6rem;"
-                                class="figure-img img-fluid rounded" alt="">
-                            <figcaption class="figure-caption text-center">Pendents</figcaption>
-                        </figure>
-                    </a>
-                    <a href="shop.html">
-                        <figure class="figure">
-                            <img src="assets/images/demos/demo-4/slider/bracelet.png" style="width: 6rem;"
-                                class="figure-img img-fluid rounded" alt="">
-                            <figcaption class="figure-caption text-center">Chain</figcaption>
-                        </figure>
-                    </a>
-                    <a href="shop.html">
-                        <figure class="figure">
-                            <img src="assets/images/demos/demo-4/slider/All-Jewellery.png" style="width: 6rem;"
-                                class="figure-img img-fluid rounded" alt="">
-                            <figcaption class="figure-caption text-center">All Jewellery</figcaption>
-                        </figure>
-                    </a>
-                    <a href="shop.html">
-                        <figure class="figure">
-                            <img src="assets/images/demos/demo-4/slider/Fast-Delivery.png" style="width: 6rem;"
-                                class="figure-img img-fluid rounded" alt="">
-                            <figcaption class="figure-caption text-center">FastDelivery</figcaption>
-                        </figure>
-                    </a>
-                    <a href="shop.html">
-                        <figure class="figure">
-                            <img src="assets/images/demos/demo-4/slider/All-Jewellery.png" style="width: 6rem;"
-                                class="figure-img img-fluid rounded" alt="">
-                            <figcaption class="figure-caption text-center">All Jewellery</figcaption>
-                        </figure>
-                    </a>
-                    <a href="shop.html">
-                        <figure class="figure">
-                            <img src="assets/images/demos/demo-4/slider/Fast-Delivery.png" style="width: 6rem;"
-                                class="figure-img img-fluid rounded" alt="">
-                            <figcaption class="figure-caption text-center">FastDelivery</figcaption>
-                        </figure>
-                    </a>
-                    <a href="shop.html">
-                        <figure class="figure">
-                            <img src="assets/images/demos/demo-4/slider/Rings.png" style="width: 6rem;"
-                                class="figure-img img-fluid rounded" alt="">
-                            <figcaption class="figure-caption text-center">Rings</figcaption>
-                        </figure>
-                    </a>
-                    <a href="shop.html">
-                        <figure class="figure">
-                            <img src="assets/images/demos/demo-4/slider/earring.png" style="width: 6rem;"
-                                class="figure-img img-fluid rounded" alt="">
-                            <figcaption class="figure-caption text-center">Earrings</figcaption>
-                        </figure>
-                    </a>
-                    <a href="shop.html">
-                        <figure class="figure">
-                            <img src="assets/images/demos/demo-4/slider/pendent.png" style="width: 6rem;"
-                                class="figure-img img-fluid rounded" alt="">
-                            <figcaption class="figure-caption text-center">Pendents</figcaption>
-                        </figure>
-                    </a>
-
-                </div>
+                                            }'>
+                                        <div class="product product-2">
+                                            <figure class="product-media">
+                                                <span class="product-label label-circle label-new">New</span>
+                                                <a href="product.html">
+                                                    <img src="assets/images/demos/demo-4/products/products-1.jpg"
+                                                        alt="Product image" class="product-image">
+                                                </a>
+    
+                                                <div class="product-action-vertical">
+                                                    <a href="#" class="btn-product-icon btn-wishlist"
+                                                        title="Add to wishlist"></a>
+                                                </div><!-- End .product-action -->
+    
+                                                <div class="product-action bg-light text-primary">
+                                                    <a href="product.html" class="btn-product text-primary btn-cart "
+                                                        title="Add to cart"><span>add
+                                                            to cart</span></a>
+    
+                                                </div><!-- End .product-action -->
+                                            </figure><!-- End .product-media -->
+    
+                                            <div class="product-body p-3">
+                                                <div class="product-cat">
+                                                    <a href="#">Gold Ring</a>
+                                                </div><!-- End .product-cat -->
+                                                <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
+    
+                                                        Gold Ring</a></h3><!-- End .product-title -->
+                                                <div class="product-price">
+                                                    &#8377; 15,612
+                                                </div><!-- End .product-price -->
+                                                <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
+                                            </div><!-- End .product-body -->
+                                        </div><!-- End .product -->
+    
+                                        <div class="product product-2">
+                                            <figure class="product-media">
+                                                <a href="product.html">
+                                                    <img src="assets/images/demos/demo-4/products/products-2.jpg"
+                                                        alt="Product image" class="product-image">
+                                                </a>
+    
+                                                <div class="product-action-vertical">
+                                                    <a href="#" class="btn-product-icon btn-wishlist"
+                                                        title="Add to wishlist"></a>
+                                                </div><!-- End .product-action -->
+    
+                                                <div class="product-action">
+                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
+                                                            to cart</span></a>
+    
+                                                </div><!-- End .product-action -->
+                                            </figure><!-- End .product-media -->
+    
+                                            <div class="product-body p-3">
+                                                <div class="product-cat">
+                                                    <a href="#">Gold Earring</a>
+                                                </div><!-- End .product-cat -->
+                                                <h3 class="product-title"><a href="product.html">Floral Heart Gemstone
+                                                        Stud Earrings</a></h3><!-- End .product-title -->
+                                                <div class="product-price">
+                                                    &#8377; 7355
+                                                </div><!-- End .product-price -->
+                                                <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
+                                            </div><!-- End .product-body -->
+                                        </div><!-- End .product -->
+    
+                                        <div class="product product-2">
+                                            <figure class="product-media">
+                                                <span class="product-label label-circle label-new">New</span>
+                                                <a href="product.html">
+                                                    <img src="assets/images/demos/demo-4/products/products-1.jpg"
+                                                        alt="Product image" class="product-image">
+                                                </a>
+    
+                                                <div class="product-action-vertical">
+                                                    <a href="#" class="btn-product-icon btn-wishlist"
+                                                        title="Add to wishlist"></a>
+                                                </div><!-- End .product-action -->
+    
+                                                <div class="product-action">
+                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
+                                                            to cart</span></a>
+    
+                                                </div><!-- End .product-action -->
+                                            </figure><!-- End .product-media -->
+    
+                                            <div class="product-body p-3">
+                                                <div class="product-cat">
+                                                    <a href="#">Gold Ring</a>
+                                                </div><!-- End .product-cat -->
+                                                <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
+    
+                                                        Gold Ring</a></h3><!-- End .product-title -->
+                                                <div class="product-price">
+                                                    &#8377; 15,612
+                                                </div><!-- End .product-price -->
+                                                <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
+                                            </div><!-- End .product-body -->
+                                        </div><!-- End .product -->
+    
+                                        <div class="product product-2">
+                                            <figure class="product-media">
+                                                <span class="product-label label-circle label-new">New</span>
+                                                <a href="product.html">
+                                                    <img src="assets/images/demos/demo-4/products/products-1.jpg"
+                                                        alt="Product image" class="product-image">
+                                                </a>
+    
+                                                <div class="product-action-vertical">
+                                                    <a href="#" class="btn-product-icon btn-wishlist"
+                                                        title="Add to wishlist"></a>
+                                                </div><!-- End .product-action -->
+    
+                                                <div class="product-action">
+                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
+                                                            to cart</span></a>
+    
+                                                </div><!-- End .product-action -->
+                                            </figure><!-- End .product-media -->
+    
+                                            <div class="product-body p-3">
+                                                <div class="product-cat">
+                                                    <a href="#">Gold Ring</a>
+                                                </div><!-- End .product-cat -->
+                                                <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
+    
+                                                        Gold Ring</a></h3><!-- End .product-title -->
+                                                <div class="product-price">
+                                                    &#8377; 15,612
+                                                </div><!-- End .product-price -->
+                                                <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
+                                            </div><!-- End .product-body -->
+                                        </div><!-- End .product -->
+    
+                                        <div class="product product-2">
+                                            <figure class="product-media">
+                                                <span class="product-label label-circle label-new">New</span>
+                                                <a href="product.html">
+                                                    <img src="assets/images/demos/demo-4/products/products-1.jpg"
+                                                        alt="Product image" class="product-image">
+                                                </a>
+    
+                                                <div class="product-action-vertical">
+                                                    <a href="#" class="btn-product-icon btn-wishlist"
+                                                        title="Add to wishlist"></a>
+                                                </div><!-- End .product-action -->
+    
+                                                <div class="product-action">
+                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
+                                                            to cart</span></a>
+    
+                                                </div><!-- End .product-action -->
+                                            </figure><!-- End .product-media -->
+    
+                                            <div class="product-body p-3">
+                                                <div class="product-cat">
+                                                    <a href="#">Gold Ring</a>
+                                                </div><!-- End .product-cat -->
+                                                <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
+    
+                                                        Gold Ring</a></h3><!-- End .product-title -->
+                                                <div class="product-price">
+                                                    &#8377; 15,612
+                                                </div><!-- End .product-price -->
+                                                <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
+                                            </div><!-- End .product-body -->
+                                        </div><!-- End .product -->
+    
+                                    </div><!-- End .owl-carousel -->
+                                </div><!-- .End .tab-pane -->
+                                <div class="tab-pane p-0 fade" id="trending-best-tab" role="tabpanel"
+                                    aria-labelledby="trending-best-link">
+                                    <div class="owl-carousel owl-full carousel-equal-height carousel-with-shadow"
+                                        data-toggle="owl" data-owl-options='{
+                                                "nav": true, 
+                                                "dots": false,
+                                                "margin": 20,
+                                                "loop": false,
+                                                "responsive": {
+                                                    "0": {
+                                                        "items":2
+                                                    },
+                                                    "480": {
+                                                        "items":2
+                                                    },
+                                                    "768": {
+                                                        "items":3
+                                                    },
+                                                    "992": {
+                                                        "items":4
+                                                    }
+                                                }
+                                            }'>
+                                        <div class="product product-2">
+                                            <figure class="product-media">
+                                                <span class="product-label label-circle label-top">Top</span>
+                                                <a href="product.html">
+                                                    <img src="assets/images/demos/demo-4/products/products-1.jpg"
+                                                        alt="Product image" class="product-image">
+                                                </a>
+    
+                                                <div class="product-action-vertical">
+                                                    <a href="#" class="btn-product-icon btn-wishlist"
+                                                        title="Add to wishlist"></a>
+                                                </div><!-- End .product-action -->
+    
+                                                <div class="product-action">
+                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
+                                                            to cart</span></a>
+    
+                                                </div><!-- End .product-action -->
+                                            </figure><!-- End .product-media -->
+    
+                                            <div class="product-body p-3">
+                                                <div class="product-cat">
+                                                    <a href="#">Gold Ring</a>
+                                                </div><!-- End .product-cat -->
+                                                <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
+    
+                                                        Gold Ring</a></h3><!-- End .product-title -->
+                                                <div class="product-price">
+                                                    &#8377; 15,612
+                                                </div><!-- End .product-price -->
+                                                <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
+                                            </div><!-- End .product-body -->
+                                        </div><!-- End .product -->
+    
+                                        <div class="product product-2">
+                                            <figure class="product-media">
+                                                <a href="product.html">
+                                                    <img src="assets/images/demos/demo-4/products/products-2.jpg"
+                                                        alt="Product image" class="product-image">
+                                                </a>
+    
+                                                <div class="product-action-vertical">
+                                                    <a href="#" class="btn-product-icon btn-wishlist"
+                                                        title="Add to wishlist"></a>
+                                                </div><!-- End .product-action -->
+    
+                                                <div class="product-action">
+                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
+                                                            to cart</span></a>
+    
+                                                </div><!-- End .product-action -->
+                                            </figure><!-- End .product-media -->
+    
+                                            <div class="product-body p-3">
+                                                <div class="product-cat">
+                                                    <a href="#">Gold Earring</a>
+                                                </div><!-- End .product-cat -->
+                                                <h3 class="product-title"><a href="product.html">Floral Heart Gemstone
+                                                        Stud Earrings</a></h3><!-- End .product-title -->
+                                                <div class="product-price">
+                                                    &#8377; 7355
+                                                </div><!-- End .product-price -->
+                                                <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
+                                            </div><!-- End .product-body -->
+                                        </div><!-- End .product -->
+    
+                                        <div class="product product-2">
+                                            <figure class="product-media">
+                                                <span class="product-label label-circle label-new">New</span>
+                                                <a href="product.html">
+                                                    <img src="assets/images/demos/demo-4/products/products-1.jpg"
+                                                        alt="Product image" class="product-image">
+                                                </a>
+    
+                                                <div class="product-action-vertical">
+                                                    <a href="#" class="btn-product-icon btn-wishlist"
+                                                        title="Add to wishlist"></a>
+                                                </div><!-- End .product-action -->
+    
+                                                <div class="product-action">
+                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
+                                                            to cart</span></a>
+    
+                                                </div><!-- End .product-action -->
+                                            </figure><!-- End .product-media -->
+    
+                                            <div class="product-body p-3">
+                                                <div class="product-cat">
+                                                    <a href="#">Gold Ring</a>
+                                                </div><!-- End .product-cat -->
+                                                <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
+    
+                                                        Gold Ring</a></h3><!-- End .product-title -->
+                                                <div class="product-price">
+                                                    &#8377; 15,612
+                                                </div><!-- End .product-price -->
+                                                <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
+                                            </div><!-- End .product-body -->
+                                        </div><!-- End .product -->
+    
+                                        <div class="product product-2">
+                                            <figure class="product-media">
+                                                <span class="product-label label-circle label-new">New</span>
+                                                <a href="product.html">
+                                                    <img src="assets/images/demos/demo-4/products/products-1.jpg"
+                                                        alt="Product image" class="product-image">
+                                                </a>
+    
+                                                <div class="product-action-vertical">
+                                                    <a href="#" class="btn-product-icon btn-wishlist"
+                                                        title="Add to wishlist"></a>
+                                                </div><!-- End .product-action -->
+    
+                                                <div class="product-action">
+                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
+                                                            to cart</span></a>
+    
+                                                </div><!-- End .product-action -->
+                                            </figure><!-- End .product-media -->
+    
+                                            <div class="product-body p-3">
+                                                <div class="product-cat">
+                                                    <a href="#">Gold Ring</a>
+                                                </div><!-- End .product-cat -->
+                                                <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
+    
+                                                        Gold Ring</a></h3><!-- End .product-title -->
+                                                <div class="product-price">
+                                                    &#8377; 15,612
+                                                </div><!-- End .product-price -->
+                                                <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
+                                            </div><!-- End .product-body -->
+                                        </div><!-- End .product -->
+    
+                                        <div class="product product-2">
+                                            <figure class="product-media">
+                                                <span class="product-label label-circle label-new">New</span>
+                                                <a href="product.html">
+                                                    <img src="assets/images/demos/demo-4/products/products-1.jpg"
+                                                        alt="Product image" class="product-image">
+                                                </a>
+    
+                                                <div class="product-action-vertical">
+                                                    <a href="#" class="btn-product-icon btn-wishlist"
+                                                        title="Add to wishlist"></a>
+                                                </div><!-- End .product-action -->
+    
+                                                <div class="product-action">
+                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
+                                                            to cart</span></a>
+    
+                                                </div><!-- End .product-action -->
+                                            </figure><!-- End .product-media -->
+    
+                                            <div class="product-body p-3">
+                                                <div class="product-cat">
+                                                    <a href="#">Gold Ring</a>
+                                                </div><!-- End .product-cat -->
+                                                <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
+    
+                                                        Gold Ring</a></h3><!-- End .product-title -->
+                                                <div class="product-price">
+                                                    &#8377; 15,612
+                                                </div><!-- End .product-price -->
+                                                <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
+                                            </div><!-- End .product-body -->
+                                        </div><!-- End .product -->
+                                    </div><!-- End .owl-carousel -->
+                                </div><!-- .End .tab-pane -->
+                                <div class="tab-pane p-0 fade" id="trending-sale-tab" role="tabpanel"
+                                    aria-labelledby="trending-sale-link">
+                                    <div class="owl-carousel owl-full carousel-equal-height carousel-with-shadow"
+                                        data-toggle="owl" data-owl-options='{
+                                                "nav": true, 
+                                                "dots": false,
+                                                "margin": 20,
+                                                "loop": false,
+                                                "responsive": {
+                                                    "0": {
+                                                        "items":2
+                                                    },
+                                                    "480": {
+                                                        "items":2
+                                                    },
+                                                    "768": {
+                                                        "items":3
+                                                    },
+                                                    "992": {
+                                                        "items":4
+                                                    }
+                                                }
+                                            }'>
+                                        <div class="product product-2">
+                                            <figure class="product-media">
+                                                <span class="product-label label-circle label-sale">Sale</span>
+                                                <a href="product.html">
+                                                    <img src="assets/images/demos/demo-4/products/products-1.jpg"
+                                                        alt="Product image" class="product-image">
+                                                </a>
+    
+                                                <div class="product-action-vertical">
+                                                    <a href="#" class="btn-product-icon btn-wishlist"
+                                                        title="Add to wishlist"></a>
+                                                </div><!-- End .product-action -->
+    
+                                                <div class="product-action">
+                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
+                                                            to cart</span></a>
+    
+                                                </div><!-- End .product-action -->
+                                            </figure><!-- End .product-media -->
+    
+                                            <div class="product-body p-3">
+                                                <div class="product-cat">
+                                                    <a href="#">Gold Ring</a>
+                                                </div><!-- End .product-cat -->
+                                                <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
+    
+                                                        Gold Ring</a></h3><!-- End .product-title -->
+                                                <div class="product-price">
+                                                    &#8377; 15,612
+                                                </div><!-- End .product-price -->
+                                                <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
+                                            </div><!-- End .product-body -->
+                                        </div><!-- End .product -->
+    
+                                        <div class="product product-2">
+                                            <figure class="product-media">
+                                                <a href="product.html">
+                                                    <img src="assets/images/demos/demo-4/products/products-2.jpg"
+                                                        alt="Product image" class="product-image">
+                                                </a>
+    
+                                                <div class="product-action-vertical">
+                                                    <a href="#" class="btn-product-icon btn-wishlist"
+                                                        title="Add to wishlist"></a>
+                                                </div><!-- End .product-action -->
+    
+                                                <div class="product-action">
+                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
+                                                            to cart</span></a>
+    
+                                                </div><!-- End .product-action -->
+                                            </figure><!-- End .product-media -->
+    
+                                            <div class="product-body p-3">
+                                                <div class="product-cat">
+                                                    <a href="#">Gold Earring</a>
+                                                </div><!-- End .product-cat -->
+                                                <h3 class="product-title"><a href="product.html">Floral Heart Gemstone
+                                                        Stud Earrings</a></h3><!-- End .product-title -->
+                                                <div class="product-price">
+                                                    &#8377; 7355
+                                                </div><!-- End .product-price -->
+                                                <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
+                                            </div><!-- End .product-body -->
+                                        </div><!-- End .product -->
+    
+                                        <div class="product product-2">
+                                            <figure class="product-media">
+                                                <span class="product-label label-circle label-new">New</span>
+                                                <a href="product.html">
+                                                    <img src="assets/images/demos/demo-4/products/products-1.jpg"
+                                                        alt="Product image" class="product-image">
+                                                </a>
+    
+                                                <div class="product-action-vertical">
+                                                    <a href="#" class="btn-product-icon btn-wishlist"
+                                                        title="Add to wishlist"></a>
+                                                </div><!-- End .product-action -->
+    
+                                                <div class="product-action">
+                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
+                                                            to cart</span></a>
+    
+                                                </div><!-- End .product-action -->
+                                            </figure><!-- End .product-media -->
+    
+                                            <div class="product-body p-3">
+                                                <div class="product-cat">
+                                                    <a href="#">Gold Ring</a>
+                                                </div><!-- End .product-cat -->
+                                                <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
+    
+                                                        Gold Ring</a></h3><!-- End .product-title -->
+                                                <div class="product-price">
+                                                    &#8377; 15,612
+                                                </div><!-- End .product-price -->
+                                                <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
+                                            </div><!-- End .product-body -->
+                                        </div><!-- End .product -->
+    
+                                        <div class="product product-2">
+                                            <figure class="product-media">
+                                                <span class="product-label label-circle label-new">New</span>
+                                                <a href="product.html">
+                                                    <img src="assets/images/demos/demo-4/products/products-1.jpg"
+                                                        alt="Product image" class="product-image">
+                                                </a>
+    
+                                                <div class="product-action-vertical">
+                                                    <a href="#" class="btn-product-icon btn-wishlist"
+                                                        title="Add to wishlist"></a>
+                                                </div><!-- End .product-action -->
+    
+                                                <div class="product-action">
+                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
+                                                            to cart</span></a>
+    
+                                                </div><!-- End .product-action -->
+                                            </figure><!-- End .product-media -->
+    
+                                            <div class="product-body p-3">
+                                                <div class="product-cat">
+                                                    <a href="#">Gold Ring</a>
+                                                </div><!-- End .product-cat -->
+                                                <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
+    
+                                                        Gold Ring</a></h3><!-- End .product-title -->
+                                                <div class="product-price">
+                                                    &#8377; 15,612
+                                                </div><!-- End .product-price -->
+                                                <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
+                                            </div><!-- End .product-body -->
+                                        </div><!-- End .product -->
+    
+                                        <div class="product product-2">
+                                            <figure class="product-media">
+                                                <span class="product-label label-circle label-new">New</span>
+                                                <a href="product.html">
+                                                    <img src="assets/images/demos/demo-4/products/products-1.jpg"
+                                                        alt="Product image" class="product-image">
+                                                </a>
+    
+                                                <div class="product-action-vertical">
+                                                    <a href="#" class="btn-product-icon btn-wishlist"
+                                                        title="Add to wishlist"></a>
+                                                </div><!-- End .product-action -->
+    
+                                                <div class="product-action">
+                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
+                                                            to cart</span></a>
+    
+                                                </div><!-- End .product-action -->
+                                            </figure><!-- End .product-media -->
+    
+                                            <div class="product-body p-3">
+                                                <div class="product-cat">
+                                                    <a href="#">Gold Ring</a>
+                                                </div><!-- End .product-cat -->
+                                                <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
+                                                        Gold Ring</a></h3><!-- End .product-title -->
+                                                <div class="product-price">
+                                                    &#8377; 15,612
+                                                </div><!-- End .product-price -->
+                                                <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
+                                            </div><!-- End .product-body -->
+                                        </div><!-- End .product -->
+                                    </div><!-- End .owl-carousel -->
+                                </div><!-- .End .tab-pane -->
+                                <div class="tab-pane p-0 fade" id="trending-prod-tab" role="tabpanel"
+                                    aria-labelledby="trending-prod-link">
+                                    <div class="owl-carousel owl-full carousel-equal-height carousel-with-shadow"
+                                        data-toggle="owl" data-owl-options='{
+                                                "nav": true, 
+                                                "dots": false,
+                                                "margin": 20,
+                                                "loop": false,
+                                                "responsive": {
+                                                    "0": {
+                                                        "items":2
+                                                    },
+                                                    "480": {
+                                                        "items":2
+                                                    },
+                                                    "768": {
+                                                        "items":3
+                                                    },
+                                                    "992": {
+                                                        "items":4
+                                                    }
+                                                }
+                                            }'>
+                                        <div class="product product-2">
+                                            <figure class="product-media">
+                                                <span class="product-label label-circle label-sale">Sale</span>
+                                                <a href="product.html">
+                                                    <img src="assets/images/demos/demo-4/products/products-1.jpg"
+                                                        alt="Product image" class="product-image">
+                                                </a>
+    
+                                                <div class="product-action-vertical">
+                                                    <a href="#" class="btn-product-icon btn-wishlist"
+                                                        title="Add to wishlist"></a>
+                                                </div><!-- End .product-action -->
+    
+                                                <div class="product-action">
+                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
+                                                            to cart</span></a>
+    
+                                                </div><!-- End .product-action -->
+                                            </figure><!-- End .product-media -->
+    
+                                            <div class="product-body p-3">
+                                                <div class="product-cat">
+                                                    <a href="#">Gold Ring</a>
+                                                </div><!-- End .product-cat -->
+                                                <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
+    
+                                                        Gold Ring</a></h3><!-- End .product-title -->
+                                                <div class="product-price">
+                                                    &#8377; 15,612
+                                                </div><!-- End .product-price -->
+                                                <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
+                                            </div><!-- End .product-body -->
+                                        </div><!-- End .product -->
+    
+                                        <div class="product product-2">
+                                            <figure class="product-media">
+                                                <a href="product.html">
+                                                    <img src="assets/images/demos/demo-4/products/products-2.jpg"
+                                                        alt="Product image" class="product-image">
+                                                </a>
+    
+                                                <div class="product-action-vertical">
+                                                    <a href="#" class="btn-product-icon btn-wishlist"
+                                                        title="Add to wishlist"></a>
+                                                </div><!-- End .product-action -->
+    
+                                                <div class="product-action">
+                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
+                                                            to cart</span></a>
+    
+                                                </div><!-- End .product-action -->
+                                            </figure><!-- End .product-media -->
+    
+                                            <div class="product-body p-3">
+                                                <div class="product-cat">
+                                                    <a href="#">Gold Earring</a>
+                                                </div><!-- End .product-cat -->
+                                                <h3 class="product-title"><a href="product.html">Floral Heart Gemstone
+                                                        Stud Earrings</a></h3><!-- End .product-title -->
+                                                <div class="product-price">
+                                                    &#8377; 7355
+                                                </div><!-- End .product-price -->
+                                                <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
+                                            </div><!-- End .product-body -->
+                                        </div><!-- End .product -->
+    
+                                        <div class="product product-2">
+                                            <figure class="product-media">
+                                                <span class="product-label label-circle label-new">New</span>
+                                                <a href="product.html">
+                                                    <img src="assets/images/demos/demo-4/products/products-1.jpg"
+                                                        alt="Product image" class="product-image">
+                                                </a>
+    
+                                                <div class="product-action-vertical">
+                                                    <a href="#" class="btn-product-icon btn-wishlist"
+                                                        title="Add to wishlist"></a>
+                                                </div><!-- End .product-action -->
+    
+                                                <div class="product-action">
+                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
+                                                            to cart</span></a>
+    
+                                                </div><!-- End .product-action -->
+                                            </figure><!-- End .product-media -->
+    
+                                            <div class="product-body p-3">
+                                                <div class="product-cat">
+                                                    <a href="#">Gold Ring</a>
+                                                </div><!-- End .product-cat -->
+                                                <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
+    
+                                                        Gold Ring</a></h3><!-- End .product-title -->
+                                                <div class="product-price">
+                                                    &#8377; 15,612
+                                                </div><!-- End .product-price -->
+                                                <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
+                                            </div><!-- End .product-body -->
+                                        </div><!-- End .product -->
+    
+                                        <div class="product product-2">
+                                            <figure class="product-media">
+                                                <span class="product-label label-circle label-new">New</span>
+                                                <a href="product.html">
+                                                    <img src="assets/images/demos/demo-4/products/products-1.jpg"
+                                                        alt="Product image" class="product-image">
+                                                </a>
+    
+                                                <div class="product-action-vertical">
+                                                    <a href="#" class="btn-product-icon btn-wishlist"
+                                                        title="Add to wishlist"></a>
+                                                </div><!-- End .product-action -->
+    
+                                                <div class="product-action">
+                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
+                                                            to cart</span></a>
+    
+                                                </div><!-- End .product-action -->
+                                            </figure><!-- End .product-media -->
+    
+                                            <div class="product-body p-3">
+                                                <div class="product-cat">
+                                                    <a href="#">Gold Ring</a>
+                                                </div><!-- End .product-cat -->
+                                                <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
+    
+                                                        Gold Ring</a></h3><!-- End .product-title -->
+                                                <div class="product-price">
+                                                    &#8377; 15,612
+                                                </div><!-- End .product-price -->
+                                                <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
+                                            </div><!-- End .product-body -->
+                                        </div><!-- End .product -->
+    
+                                        <div class="product product-2">
+                                            <figure class="product-media">
+                                                <span class="product-label label-circle label-new">New</span>
+                                                <a href="product.html">
+                                                    <img src="assets/images/demos/demo-4/products/products-1.jpg"
+                                                        alt="Product image" class="product-image">
+                                                </a>
+    
+                                                <div class="product-action-vertical">
+                                                    <a href="#" class="btn-product-icon btn-wishlist"
+                                                        title="Add to wishlist"></a>
+                                                </div><!-- End .product-action -->
+    
+                                                <div class="product-action">
+                                                    <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
+                                                            to cart</span></a>
+    
+                                                </div><!-- End .product-action -->
+                                            </figure><!-- End .product-media -->
+    
+                                            <div class="product-body p-3">
+                                                <div class="product-cat">
+                                                    <a href="#">Gold Ring</a>
+                                                </div><!-- End .product-cat -->
+                                                <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
+                                                        Gold Ring</a></h3><!-- End .product-title -->
+                                                <div class="product-price">
+                                                    &#8377; 15,612
+                                                </div><!-- End .product-price -->
+                                                <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
+                                            </div><!-- End .product-body -->
+                                        </div><!-- End .product -->
+                                    </div><!-- End .owl-carousel -->
+                                </div><!-- .End .tab-pane -->
+                            </div><!-- End .tab-content -->
+                        </div>
+                    </div><!-- End .container -->
+                </div><!-- End .bg-light pt-5 pb-6 -->
+    
+    
+                <div class="mb-3"></div><!-- End .mb-5 -->
             </div>
 
             <!--banners-->
@@ -898,830 +1621,7 @@
                 </div><!-- End .row -->
             </div><!-- End .container -->
 
-            <!--navtabs popular-->
-            <div class="bg-light pt-3 pb-3">
-                <div class="container trending-products">
-                    <div class="heading heading-flex mb-3">
-                        <div class="heading-left">
-                            <h2 class="title">Discover Our Popular Designs</h2><!-- End .title -->
-                            <p class="title-desc">Jewellery Crafted With Care & Love.</p>
-                        </div><!-- End .heading-left -->
-
-                        <div class="heading-right">
-                            <ul class="nav nav-pills nav-border-anim justify-content-center" role="tablist">
-                                <li class="nav-item">
-                                    <a class="nav-link active" id="trending-top-link" data-toggle="tab"
-                                        href="#trending-top-tab" role="tab" aria-controls="trending-top-tab"
-                                        aria-selected="true">
-                                        <img src="assets/images/demos/demo-4/navatabs/new-stock.png" class="gemsicon"
-                                            alt="">
-                                        New Arrivals</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="trending-best-link" data-toggle="tab"
-                                        href="#trending-best-tab" role="tab" aria-controls="trending-best-tab"
-                                        aria-selected="false">
-                                        <img src="assets/images/demos/demo-4/navatabs/best-seller.webp" class="gemsicon"
-                                            alt="">
-                                        Best Selling</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="trending-sale-link" data-toggle="tab"
-                                        href="#trending-sale-tab" role="tab" aria-controls="trending-sale-tab"
-                                        aria-selected="false">
-                                        <img src="assets/images/demos/demo-4/navatabs/offers.webp" class="gemsicon"
-                                            alt="">
-                                        Offers</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="trending-sale-link" data-toggle="tab"
-                                        href="#trending-prod-tab" role="tab" aria-controls="trending-prod-tab"
-                                        aria-selected="false">
-                                        <img src="assets/images/demos/demo-4/navatabs/trend.webp" class="gemsicon"
-                                            alt="">
-                                        Trending</a>
-                                </li>
-                            </ul>
-                        </div><!-- End .heading-right -->
-                    </div><!-- End .heading -->
-
-                    <div class="container">
-                        <div class="tab-content tab-content-carousel just-action-icons-sm">
-                            <div class="tab-pane p-0 fade show active" id="trending-top-tab" role="tabpanel"
-                                aria-labelledby="trending-top-link">
-                                <div class="owl-carousel owl-full carousel-equal-height carousel-with-shadow"
-                                    data-toggle="owl" data-owl-options='{
-                                            "nav": true, 
-                                            "dots": false,
-                                            "margin": 20,
-                                            "loop": false,
-                                            "responsive": {
-                                                "0": {
-                                                    "items":2
-                                                },
-                                                "480": {
-                                                    "items":2
-                                                },
-                                                "768": {
-                                                    "items":3
-                                                },
-                                                "992": {
-                                                    "items":4
-                                                }
-                                            }
-                                        }'>
-                                    <div class="product product-2">
-                                        <figure class="product-media">
-                                            <span class="product-label label-circle label-new">New</span>
-                                            <a href="product.html">
-                                                <img src="assets/images/demos/demo-4/products/products-1.jpg"
-                                                    alt="Product image" class="product-image">
-                                            </a>
-
-                                            <div class="product-action-vertical">
-                                                <a href="#" class="btn-product-icon btn-wishlist"
-                                                    title="Add to wishlist"></a>
-                                            </div><!-- End .product-action -->
-
-                                            <div class="product-action bg-light text-primary">
-                                                <a href="product.html" class="btn-product text-primary btn-cart "
-                                                    title="Add to cart"><span>add
-                                                        to cart</span></a>
-
-                                            </div><!-- End .product-action -->
-                                        </figure><!-- End .product-media -->
-
-                                        <div class="product-body p-3">
-                                            <div class="product-cat">
-                                                <a href="#">Gold Ring</a>
-                                            </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
-
-                                                    Gold Ring</a></h3><!-- End .product-title -->
-                                            <div class="product-price">
-                                                &#8377; 15,612
-                                            </div><!-- End .product-price -->
-                                            <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
-                                        </div><!-- End .product-body -->
-                                    </div><!-- End .product -->
-
-                                    <div class="product product-2">
-                                        <figure class="product-media">
-                                            <a href="product.html">
-                                                <img src="assets/images/demos/demo-4/products/products-2.jpg"
-                                                    alt="Product image" class="product-image">
-                                            </a>
-
-                                            <div class="product-action-vertical">
-                                                <a href="#" class="btn-product-icon btn-wishlist"
-                                                    title="Add to wishlist"></a>
-                                            </div><!-- End .product-action -->
-
-                                            <div class="product-action">
-                                                <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
-                                                        to cart</span></a>
-
-                                            </div><!-- End .product-action -->
-                                        </figure><!-- End .product-media -->
-
-                                        <div class="product-body p-3">
-                                            <div class="product-cat">
-                                                <a href="#">Gold Earring</a>
-                                            </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Floral Heart Gemstone
-                                                    Stud Earrings</a></h3><!-- End .product-title -->
-                                            <div class="product-price">
-                                                &#8377; 7355
-                                            </div><!-- End .product-price -->
-                                            <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
-                                        </div><!-- End .product-body -->
-                                    </div><!-- End .product -->
-
-                                    <div class="product product-2">
-                                        <figure class="product-media">
-                                            <span class="product-label label-circle label-new">New</span>
-                                            <a href="product.html">
-                                                <img src="assets/images/demos/demo-4/products/products-1.jpg"
-                                                    alt="Product image" class="product-image">
-                                            </a>
-
-                                            <div class="product-action-vertical">
-                                                <a href="#" class="btn-product-icon btn-wishlist"
-                                                    title="Add to wishlist"></a>
-                                            </div><!-- End .product-action -->
-
-                                            <div class="product-action">
-                                                <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
-                                                        to cart</span></a>
-
-                                            </div><!-- End .product-action -->
-                                        </figure><!-- End .product-media -->
-
-                                        <div class="product-body p-3">
-                                            <div class="product-cat">
-                                                <a href="#">Gold Ring</a>
-                                            </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
-
-                                                    Gold Ring</a></h3><!-- End .product-title -->
-                                            <div class="product-price">
-                                                &#8377; 15,612
-                                            </div><!-- End .product-price -->
-                                            <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
-                                        </div><!-- End .product-body -->
-                                    </div><!-- End .product -->
-
-                                    <div class="product product-2">
-                                        <figure class="product-media">
-                                            <span class="product-label label-circle label-new">New</span>
-                                            <a href="product.html">
-                                                <img src="assets/images/demos/demo-4/products/products-1.jpg"
-                                                    alt="Product image" class="product-image">
-                                            </a>
-
-                                            <div class="product-action-vertical">
-                                                <a href="#" class="btn-product-icon btn-wishlist"
-                                                    title="Add to wishlist"></a>
-                                            </div><!-- End .product-action -->
-
-                                            <div class="product-action">
-                                                <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
-                                                        to cart</span></a>
-
-                                            </div><!-- End .product-action -->
-                                        </figure><!-- End .product-media -->
-
-                                        <div class="product-body p-3">
-                                            <div class="product-cat">
-                                                <a href="#">Gold Ring</a>
-                                            </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
-
-                                                    Gold Ring</a></h3><!-- End .product-title -->
-                                            <div class="product-price">
-                                                &#8377; 15,612
-                                            </div><!-- End .product-price -->
-                                            <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
-                                        </div><!-- End .product-body -->
-                                    </div><!-- End .product -->
-
-                                    <div class="product product-2">
-                                        <figure class="product-media">
-                                            <span class="product-label label-circle label-new">New</span>
-                                            <a href="product.html">
-                                                <img src="assets/images/demos/demo-4/products/products-1.jpg"
-                                                    alt="Product image" class="product-image">
-                                            </a>
-
-                                            <div class="product-action-vertical">
-                                                <a href="#" class="btn-product-icon btn-wishlist"
-                                                    title="Add to wishlist"></a>
-                                            </div><!-- End .product-action -->
-
-                                            <div class="product-action">
-                                                <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
-                                                        to cart</span></a>
-
-                                            </div><!-- End .product-action -->
-                                        </figure><!-- End .product-media -->
-
-                                        <div class="product-body p-3">
-                                            <div class="product-cat">
-                                                <a href="#">Gold Ring</a>
-                                            </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
-
-                                                    Gold Ring</a></h3><!-- End .product-title -->
-                                            <div class="product-price">
-                                                &#8377; 15,612
-                                            </div><!-- End .product-price -->
-                                            <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
-                                        </div><!-- End .product-body -->
-                                    </div><!-- End .product -->
-
-                                </div><!-- End .owl-carousel -->
-                            </div><!-- .End .tab-pane -->
-                            <div class="tab-pane p-0 fade" id="trending-best-tab" role="tabpanel"
-                                aria-labelledby="trending-best-link">
-                                <div class="owl-carousel owl-full carousel-equal-height carousel-with-shadow"
-                                    data-toggle="owl" data-owl-options='{
-                                            "nav": true, 
-                                            "dots": false,
-                                            "margin": 20,
-                                            "loop": false,
-                                            "responsive": {
-                                                "0": {
-                                                    "items":2
-                                                },
-                                                "480": {
-                                                    "items":2
-                                                },
-                                                "768": {
-                                                    "items":3
-                                                },
-                                                "992": {
-                                                    "items":4
-                                                }
-                                            }
-                                        }'>
-                                    <div class="product product-2">
-                                        <figure class="product-media">
-                                            <span class="product-label label-circle label-top">Top</span>
-                                            <a href="product.html">
-                                                <img src="assets/images/demos/demo-4/products/products-1.jpg"
-                                                    alt="Product image" class="product-image">
-                                            </a>
-
-                                            <div class="product-action-vertical">
-                                                <a href="#" class="btn-product-icon btn-wishlist"
-                                                    title="Add to wishlist"></a>
-                                            </div><!-- End .product-action -->
-
-                                            <div class="product-action">
-                                                <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
-                                                        to cart</span></a>
-
-                                            </div><!-- End .product-action -->
-                                        </figure><!-- End .product-media -->
-
-                                        <div class="product-body p-3">
-                                            <div class="product-cat">
-                                                <a href="#">Gold Ring</a>
-                                            </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
-
-                                                    Gold Ring</a></h3><!-- End .product-title -->
-                                            <div class="product-price">
-                                                &#8377; 15,612
-                                            </div><!-- End .product-price -->
-                                            <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
-                                        </div><!-- End .product-body -->
-                                    </div><!-- End .product -->
-
-                                    <div class="product product-2">
-                                        <figure class="product-media">
-                                            <a href="product.html">
-                                                <img src="assets/images/demos/demo-4/products/products-2.jpg"
-                                                    alt="Product image" class="product-image">
-                                            </a>
-
-                                            <div class="product-action-vertical">
-                                                <a href="#" class="btn-product-icon btn-wishlist"
-                                                    title="Add to wishlist"></a>
-                                            </div><!-- End .product-action -->
-
-                                            <div class="product-action">
-                                                <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
-                                                        to cart</span></a>
-
-                                            </div><!-- End .product-action -->
-                                        </figure><!-- End .product-media -->
-
-                                        <div class="product-body p-3">
-                                            <div class="product-cat">
-                                                <a href="#">Gold Earring</a>
-                                            </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Floral Heart Gemstone
-                                                    Stud Earrings</a></h3><!-- End .product-title -->
-                                            <div class="product-price">
-                                                &#8377; 7355
-                                            </div><!-- End .product-price -->
-                                            <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
-                                        </div><!-- End .product-body -->
-                                    </div><!-- End .product -->
-
-                                    <div class="product product-2">
-                                        <figure class="product-media">
-                                            <span class="product-label label-circle label-new">New</span>
-                                            <a href="product.html">
-                                                <img src="assets/images/demos/demo-4/products/products-1.jpg"
-                                                    alt="Product image" class="product-image">
-                                            </a>
-
-                                            <div class="product-action-vertical">
-                                                <a href="#" class="btn-product-icon btn-wishlist"
-                                                    title="Add to wishlist"></a>
-                                            </div><!-- End .product-action -->
-
-                                            <div class="product-action">
-                                                <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
-                                                        to cart</span></a>
-
-                                            </div><!-- End .product-action -->
-                                        </figure><!-- End .product-media -->
-
-                                        <div class="product-body p-3">
-                                            <div class="product-cat">
-                                                <a href="#">Gold Ring</a>
-                                            </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
-
-                                                    Gold Ring</a></h3><!-- End .product-title -->
-                                            <div class="product-price">
-                                                &#8377; 15,612
-                                            </div><!-- End .product-price -->
-                                            <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
-                                        </div><!-- End .product-body -->
-                                    </div><!-- End .product -->
-
-                                    <div class="product product-2">
-                                        <figure class="product-media">
-                                            <span class="product-label label-circle label-new">New</span>
-                                            <a href="product.html">
-                                                <img src="assets/images/demos/demo-4/products/products-1.jpg"
-                                                    alt="Product image" class="product-image">
-                                            </a>
-
-                                            <div class="product-action-vertical">
-                                                <a href="#" class="btn-product-icon btn-wishlist"
-                                                    title="Add to wishlist"></a>
-                                            </div><!-- End .product-action -->
-
-                                            <div class="product-action">
-                                                <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
-                                                        to cart</span></a>
-
-                                            </div><!-- End .product-action -->
-                                        </figure><!-- End .product-media -->
-
-                                        <div class="product-body p-3">
-                                            <div class="product-cat">
-                                                <a href="#">Gold Ring</a>
-                                            </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
-
-                                                    Gold Ring</a></h3><!-- End .product-title -->
-                                            <div class="product-price">
-                                                &#8377; 15,612
-                                            </div><!-- End .product-price -->
-                                            <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
-                                        </div><!-- End .product-body -->
-                                    </div><!-- End .product -->
-
-                                    <div class="product product-2">
-                                        <figure class="product-media">
-                                            <span class="product-label label-circle label-new">New</span>
-                                            <a href="product.html">
-                                                <img src="assets/images/demos/demo-4/products/products-1.jpg"
-                                                    alt="Product image" class="product-image">
-                                            </a>
-
-                                            <div class="product-action-vertical">
-                                                <a href="#" class="btn-product-icon btn-wishlist"
-                                                    title="Add to wishlist"></a>
-                                            </div><!-- End .product-action -->
-
-                                            <div class="product-action">
-                                                <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
-                                                        to cart</span></a>
-
-                                            </div><!-- End .product-action -->
-                                        </figure><!-- End .product-media -->
-
-                                        <div class="product-body p-3">
-                                            <div class="product-cat">
-                                                <a href="#">Gold Ring</a>
-                                            </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
-
-                                                    Gold Ring</a></h3><!-- End .product-title -->
-                                            <div class="product-price">
-                                                &#8377; 15,612
-                                            </div><!-- End .product-price -->
-                                            <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
-                                        </div><!-- End .product-body -->
-                                    </div><!-- End .product -->
-                                </div><!-- End .owl-carousel -->
-                            </div><!-- .End .tab-pane -->
-                            <div class="tab-pane p-0 fade" id="trending-sale-tab" role="tabpanel"
-                                aria-labelledby="trending-sale-link">
-                                <div class="owl-carousel owl-full carousel-equal-height carousel-with-shadow"
-                                    data-toggle="owl" data-owl-options='{
-                                            "nav": true, 
-                                            "dots": false,
-                                            "margin": 20,
-                                            "loop": false,
-                                            "responsive": {
-                                                "0": {
-                                                    "items":2
-                                                },
-                                                "480": {
-                                                    "items":2
-                                                },
-                                                "768": {
-                                                    "items":3
-                                                },
-                                                "992": {
-                                                    "items":4
-                                                }
-                                            }
-                                        }'>
-                                    <div class="product product-2">
-                                        <figure class="product-media">
-                                            <span class="product-label label-circle label-sale">Sale</span>
-                                            <a href="product.html">
-                                                <img src="assets/images/demos/demo-4/products/products-1.jpg"
-                                                    alt="Product image" class="product-image">
-                                            </a>
-
-                                            <div class="product-action-vertical">
-                                                <a href="#" class="btn-product-icon btn-wishlist"
-                                                    title="Add to wishlist"></a>
-                                            </div><!-- End .product-action -->
-
-                                            <div class="product-action">
-                                                <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
-                                                        to cart</span></a>
-
-                                            </div><!-- End .product-action -->
-                                        </figure><!-- End .product-media -->
-
-                                        <div class="product-body p-3">
-                                            <div class="product-cat">
-                                                <a href="#">Gold Ring</a>
-                                            </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
-
-                                                    Gold Ring</a></h3><!-- End .product-title -->
-                                            <div class="product-price">
-                                                &#8377; 15,612
-                                            </div><!-- End .product-price -->
-                                            <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
-                                        </div><!-- End .product-body -->
-                                    </div><!-- End .product -->
-
-                                    <div class="product product-2">
-                                        <figure class="product-media">
-                                            <a href="product.html">
-                                                <img src="assets/images/demos/demo-4/products/products-2.jpg"
-                                                    alt="Product image" class="product-image">
-                                            </a>
-
-                                            <div class="product-action-vertical">
-                                                <a href="#" class="btn-product-icon btn-wishlist"
-                                                    title="Add to wishlist"></a>
-                                            </div><!-- End .product-action -->
-
-                                            <div class="product-action">
-                                                <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
-                                                        to cart</span></a>
-
-                                            </div><!-- End .product-action -->
-                                        </figure><!-- End .product-media -->
-
-                                        <div class="product-body p-3">
-                                            <div class="product-cat">
-                                                <a href="#">Gold Earring</a>
-                                            </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Floral Heart Gemstone
-                                                    Stud Earrings</a></h3><!-- End .product-title -->
-                                            <div class="product-price">
-                                                &#8377; 7355
-                                            </div><!-- End .product-price -->
-                                            <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
-                                        </div><!-- End .product-body -->
-                                    </div><!-- End .product -->
-
-                                    <div class="product product-2">
-                                        <figure class="product-media">
-                                            <span class="product-label label-circle label-new">New</span>
-                                            <a href="product.html">
-                                                <img src="assets/images/demos/demo-4/products/products-1.jpg"
-                                                    alt="Product image" class="product-image">
-                                            </a>
-
-                                            <div class="product-action-vertical">
-                                                <a href="#" class="btn-product-icon btn-wishlist"
-                                                    title="Add to wishlist"></a>
-                                            </div><!-- End .product-action -->
-
-                                            <div class="product-action">
-                                                <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
-                                                        to cart</span></a>
-
-                                            </div><!-- End .product-action -->
-                                        </figure><!-- End .product-media -->
-
-                                        <div class="product-body p-3">
-                                            <div class="product-cat">
-                                                <a href="#">Gold Ring</a>
-                                            </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
-
-                                                    Gold Ring</a></h3><!-- End .product-title -->
-                                            <div class="product-price">
-                                                &#8377; 15,612
-                                            </div><!-- End .product-price -->
-                                            <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
-                                        </div><!-- End .product-body -->
-                                    </div><!-- End .product -->
-
-                                    <div class="product product-2">
-                                        <figure class="product-media">
-                                            <span class="product-label label-circle label-new">New</span>
-                                            <a href="product.html">
-                                                <img src="assets/images/demos/demo-4/products/products-1.jpg"
-                                                    alt="Product image" class="product-image">
-                                            </a>
-
-                                            <div class="product-action-vertical">
-                                                <a href="#" class="btn-product-icon btn-wishlist"
-                                                    title="Add to wishlist"></a>
-                                            </div><!-- End .product-action -->
-
-                                            <div class="product-action">
-                                                <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
-                                                        to cart</span></a>
-
-                                            </div><!-- End .product-action -->
-                                        </figure><!-- End .product-media -->
-
-                                        <div class="product-body p-3">
-                                            <div class="product-cat">
-                                                <a href="#">Gold Ring</a>
-                                            </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
-
-                                                    Gold Ring</a></h3><!-- End .product-title -->
-                                            <div class="product-price">
-                                                &#8377; 15,612
-                                            </div><!-- End .product-price -->
-                                            <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
-                                        </div><!-- End .product-body -->
-                                    </div><!-- End .product -->
-
-                                    <div class="product product-2">
-                                        <figure class="product-media">
-                                            <span class="product-label label-circle label-new">New</span>
-                                            <a href="product.html">
-                                                <img src="assets/images/demos/demo-4/products/products-1.jpg"
-                                                    alt="Product image" class="product-image">
-                                            </a>
-
-                                            <div class="product-action-vertical">
-                                                <a href="#" class="btn-product-icon btn-wishlist"
-                                                    title="Add to wishlist"></a>
-                                            </div><!-- End .product-action -->
-
-                                            <div class="product-action">
-                                                <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
-                                                        to cart</span></a>
-
-                                            </div><!-- End .product-action -->
-                                        </figure><!-- End .product-media -->
-
-                                        <div class="product-body p-3">
-                                            <div class="product-cat">
-                                                <a href="#">Gold Ring</a>
-                                            </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
-                                                    Gold Ring</a></h3><!-- End .product-title -->
-                                            <div class="product-price">
-                                                &#8377; 15,612
-                                            </div><!-- End .product-price -->
-                                            <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
-                                        </div><!-- End .product-body -->
-                                    </div><!-- End .product -->
-                                </div><!-- End .owl-carousel -->
-                            </div><!-- .End .tab-pane -->
-                            <div class="tab-pane p-0 fade" id="trending-prod-tab" role="tabpanel"
-                                aria-labelledby="trending-prod-link">
-                                <div class="owl-carousel owl-full carousel-equal-height carousel-with-shadow"
-                                    data-toggle="owl" data-owl-options='{
-                                            "nav": true, 
-                                            "dots": false,
-                                            "margin": 20,
-                                            "loop": false,
-                                            "responsive": {
-                                                "0": {
-                                                    "items":2
-                                                },
-                                                "480": {
-                                                    "items":2
-                                                },
-                                                "768": {
-                                                    "items":3
-                                                },
-                                                "992": {
-                                                    "items":4
-                                                }
-                                            }
-                                        }'>
-                                    <div class="product product-2">
-                                        <figure class="product-media">
-                                            <span class="product-label label-circle label-sale">Sale</span>
-                                            <a href="product.html">
-                                                <img src="assets/images/demos/demo-4/products/products-1.jpg"
-                                                    alt="Product image" class="product-image">
-                                            </a>
-
-                                            <div class="product-action-vertical">
-                                                <a href="#" class="btn-product-icon btn-wishlist"
-                                                    title="Add to wishlist"></a>
-                                            </div><!-- End .product-action -->
-
-                                            <div class="product-action">
-                                                <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
-                                                        to cart</span></a>
-
-                                            </div><!-- End .product-action -->
-                                        </figure><!-- End .product-media -->
-
-                                        <div class="product-body p-3">
-                                            <div class="product-cat">
-                                                <a href="#">Gold Ring</a>
-                                            </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
-
-                                                    Gold Ring</a></h3><!-- End .product-title -->
-                                            <div class="product-price">
-                                                &#8377; 15,612
-                                            </div><!-- End .product-price -->
-                                            <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
-                                        </div><!-- End .product-body -->
-                                    </div><!-- End .product -->
-
-                                    <div class="product product-2">
-                                        <figure class="product-media">
-                                            <a href="product.html">
-                                                <img src="assets/images/demos/demo-4/products/products-2.jpg"
-                                                    alt="Product image" class="product-image">
-                                            </a>
-
-                                            <div class="product-action-vertical">
-                                                <a href="#" class="btn-product-icon btn-wishlist"
-                                                    title="Add to wishlist"></a>
-                                            </div><!-- End .product-action -->
-
-                                            <div class="product-action">
-                                                <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
-                                                        to cart</span></a>
-
-                                            </div><!-- End .product-action -->
-                                        </figure><!-- End .product-media -->
-
-                                        <div class="product-body p-3">
-                                            <div class="product-cat">
-                                                <a href="#">Gold Earring</a>
-                                            </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Floral Heart Gemstone
-                                                    Stud Earrings</a></h3><!-- End .product-title -->
-                                            <div class="product-price">
-                                                &#8377; 7355
-                                            </div><!-- End .product-price -->
-                                            <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
-                                        </div><!-- End .product-body -->
-                                    </div><!-- End .product -->
-
-                                    <div class="product product-2">
-                                        <figure class="product-media">
-                                            <span class="product-label label-circle label-new">New</span>
-                                            <a href="product.html">
-                                                <img src="assets/images/demos/demo-4/products/products-1.jpg"
-                                                    alt="Product image" class="product-image">
-                                            </a>
-
-                                            <div class="product-action-vertical">
-                                                <a href="#" class="btn-product-icon btn-wishlist"
-                                                    title="Add to wishlist"></a>
-                                            </div><!-- End .product-action -->
-
-                                            <div class="product-action">
-                                                <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
-                                                        to cart</span></a>
-
-                                            </div><!-- End .product-action -->
-                                        </figure><!-- End .product-media -->
-
-                                        <div class="product-body p-3">
-                                            <div class="product-cat">
-                                                <a href="#">Gold Ring</a>
-                                            </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
-
-                                                    Gold Ring</a></h3><!-- End .product-title -->
-                                            <div class="product-price">
-                                                &#8377; 15,612
-                                            </div><!-- End .product-price -->
-                                            <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
-                                        </div><!-- End .product-body -->
-                                    </div><!-- End .product -->
-
-                                    <div class="product product-2">
-                                        <figure class="product-media">
-                                            <span class="product-label label-circle label-new">New</span>
-                                            <a href="product.html">
-                                                <img src="assets/images/demos/demo-4/products/products-1.jpg"
-                                                    alt="Product image" class="product-image">
-                                            </a>
-
-                                            <div class="product-action-vertical">
-                                                <a href="#" class="btn-product-icon btn-wishlist"
-                                                    title="Add to wishlist"></a>
-                                            </div><!-- End .product-action -->
-
-                                            <div class="product-action">
-                                                <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
-                                                        to cart</span></a>
-
-                                            </div><!-- End .product-action -->
-                                        </figure><!-- End .product-media -->
-
-                                        <div class="product-body p-3">
-                                            <div class="product-cat">
-                                                <a href="#">Gold Ring</a>
-                                            </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
-
-                                                    Gold Ring</a></h3><!-- End .product-title -->
-                                            <div class="product-price">
-                                                &#8377; 15,612
-                                            </div><!-- End .product-price -->
-                                            <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
-                                        </div><!-- End .product-body -->
-                                    </div><!-- End .product -->
-
-                                    <div class="product product-2">
-                                        <figure class="product-media">
-                                            <span class="product-label label-circle label-new">New</span>
-                                            <a href="product.html">
-                                                <img src="assets/images/demos/demo-4/products/products-1.jpg"
-                                                    alt="Product image" class="product-image">
-                                            </a>
-
-                                            <div class="product-action-vertical">
-                                                <a href="#" class="btn-product-icon btn-wishlist"
-                                                    title="Add to wishlist"></a>
-                                            </div><!-- End .product-action -->
-
-                                            <div class="product-action">
-                                                <a href="#" class="btn-product btn-cart" title="Add to cart"><span>add
-                                                        to cart</span></a>
-
-                                            </div><!-- End .product-action -->
-                                        </figure><!-- End .product-media -->
-
-                                        <div class="product-body p-3">
-                                            <div class="product-cat">
-                                                <a href="#">Gold Ring</a>
-                                            </div><!-- End .product-cat -->
-                                            <h3 class="product-title"><a href="product.html">Mesh Cluster Diamond
-                                                    Gold Ring</a></h3><!-- End .product-title -->
-                                            <div class="product-price">
-                                                &#8377; 15,612
-                                            </div><!-- End .product-price -->
-                                            <span class="text-primary">0%&nbsp;Making&nbsp;Charges</span>
-                                        </div><!-- End .product-body -->
-                                    </div><!-- End .product -->
-                                </div><!-- End .owl-carousel -->
-                            </div><!-- .End .tab-pane -->
-                        </div><!-- End .tab-content -->
-                    </div>
-                </div><!-- End .container -->
-            </div><!-- End .bg-light pt-5 pb-6 -->
-
-
-            <div class="mb-3"></div><!-- End .mb-5 -->
+            <
 
             <!--catelogue-->
             <div class="container new-arrivals pt-1">

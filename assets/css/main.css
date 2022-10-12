@@ -908,15 +908,16 @@
         display: none;
     }
 }
-
+.intro-slider-container,
+.intro-slide {
+    height: 600px;
+    width: auto;
+}
 @media screen and (min-width: 992px) {
     .mobile-slide {
         display: none;
     }
-    .intro-slider-container,
-    .intro-slide {
-        height: 600px
-    }
+   
 
     .intro-price {
         font-size: 4.4rem
